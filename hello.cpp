@@ -6,9 +6,8 @@ int main() {
     string name = "Braden";
     int age = 27;
     float weight = 161.5;
-    
-    cout << "Enter your name: ";
-    cin >> name;
-    cout << "Hello, " << name << "!" << endl;
+    cout << "Name: " << name << endl;
+    cout << "Age: " << age << endl;
+    cout << "Weight: " << weight << endl;
     return 0;
 }
