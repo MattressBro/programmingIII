@@ -1,0 +1,7 @@
+for loop 3 times
+    ask user for string input
+    get string input
+    ask user for string input
+    get string input
+    combine string
+exit
