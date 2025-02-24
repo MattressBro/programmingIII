@@ -1,0 +1,10 @@
+include in/out stream
+using standard namespace
+main
+    gather 3 numbers from user and assign to num1,num2,num3
+    assign pointers to the numbers
+    output num1-num3
+    output pointers 
+    delete pointers 
+    end program
+
