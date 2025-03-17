@@ -3,11 +3,12 @@
 #include <limits>
 
 using namespace std;
-int main(){
+int main() {
     int age;
     while (true) {
         cout << "Enter your age: ";
         cin >> age;
+
         if (cin.fail()) {
             cin.clear(); // clear the error flag
             cin.ignore(numeric_limits<streamsize>::max(), '\n'); // discard invalid input
@@ -16,4 +17,7 @@ int main(){
             break; // valid input, exit the loop
         }
     }
+
+    cout << "Your age is: " << age << endl;
+    return 0;
 }

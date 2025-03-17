@@ -4,6 +4,7 @@
         "ostream": "cpp",
         "xstring": "cpp",
         "string": "cpp",
-        "limits": "cpp"
+        "limits": "cpp",
+        "xiosbase": "cpp"
     }
 }
