@@ -11,7 +11,8 @@ void countUp(int x);
 void countDown(int x);
 int main(){
     int num = 0;    
-    thread t1, t2;
+    thread t1;
+    thread t2; 
     t1 = thread(countUp, num); // Create a thread to count up from 0
     t2 = thread(countDown, num); // Create a thread to count down from 20
 
